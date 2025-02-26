@@ -1,25 +1,27 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f9f9f9;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 80%;
-    max-width: 800px;
+    width: 60%;
     margin: 20px auto;
     background: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+h1, h2, h3, h4 {
+    color: #2E86C1;
+}
+
 h1 {
     text-align: center;
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 5px;
 }
 
 .contact-info {
@@ -36,9 +38,8 @@ h1 {
 }
 
 .section h2 {
-    font-size: 20px;
-    color: #0056b3;
-    border-bottom: 1px solid #0056b3;
+    font-size: 24px;
+    border-bottom: 2px solid #2E86C1;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -50,18 +51,28 @@ h1 {
 
 .section ul li {
     margin: 5px 0;
-    padding-left: 10px;
-    text-indent: -10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.section ul li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #2E86C1;
 }
 
 .experience h3, .experience h4 {
     margin-bottom: 5px;
-    color: #343a40;
 }
 
 .experience p {
     margin: 0 0 10px;
     font-style: italic;
-    color: #6c757d;
+    color: #555;
+}
+
+p {
+    margin: 0 0 10px;
 }
 
